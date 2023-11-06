@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(190, 80, 80);
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+.operaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnResultado{
+    background-color: #3b3b4f;
+    border-radius: 2px red;
+}
