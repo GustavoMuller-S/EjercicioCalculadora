@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./scripts.js">
     <title>Document</title>
 </head>
 <!-- EJERCICIO CALCULADORA  -->
@@ -16,33 +15,32 @@
 
     <div>
         <label>Ingrese un numero: </label>
-        <input type="number" id="primerNUm">
+        <input type="number" id="primerNum" placeholder="Ingrese un numero">
     </div>
     <div>
         <label>Ingrese otro numero: </label>
-        <input type="number" id="segundoNum">
+        <input type="number" id="segundoNum" placeholder="Ingrese un numero">
     </div>
 
     </fieldset>
 
     <fieldset class="operaciones">
         <div>
-            <button class="btnSumar" type="button">SUMAR</button>
+            <button onclick="btnSumar()">SUMAR</button>
         </div>
         <div>
-            <button class="btnRestar" type="button">RESTAR</button>
+            <button onclick="btnRestar()">RESTAR</button>
         </div>
         <div>
-            <button class="btnMulti" type="button">MULTIPLICAR</button>
+            <button onclick="btnMulti()">MULTIPLICAR</button>
         </div>
         <div>
-            <button class="btnDivid" type="button">DIVIDIR</button>
+            <button onclick="btnDivid()">DIVIDIR</button>
         </div>
     </fieldset>
     
     <fieldset class="resultado">
-        <button class="btnRes" type="button">RESULTADO</button>
-        <label>El total es: </label>
+        <p>El total es: <span id="resultado"></span> </p>
 
     </fieldset>
 
