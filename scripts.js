@@ -2,8 +2,8 @@
 
 function btnSumar() {
     // Obtener los valores ingresados por el usuario
-    var numeroUno = parseFloat(document.getElementById("primerNum").value);
-    var numeroDos = parseFloat(document.getElementById("segundoNum").value);
+    let numeroUno = parseFloat(document.getElementById("primerNum").value);
+    let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
     // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
@@ -12,7 +12,7 @@ function btnSumar() {
     }
 
     // Calcular la suma
-    var suma = numeroUno + numeroDos;
+    let suma = numeroUno + numeroDos;
 
     // Mostrar el resultado
     document.getElementById("resultado").textContent = suma;
@@ -20,8 +20,8 @@ function btnSumar() {
 
 function btnRestar() {
     // Obtener los valores ingresados por el usuario
-    var numeroUno = parseFloat(document.getElementById("primerNum").value);
-    var numeroDos = parseFloat(document.getElementById("segundoNum").value);
+    let numeroUno = parseFloat(document.getElementById("primerNum").value);
+    let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
     // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
@@ -30,7 +30,7 @@ function btnRestar() {
     }
 
     // Calcular la resta
-    var resta = numeroUno - numeroDos;
+    let resta = numeroUno - numeroDos;
 
     // Mostrar el resultado
     document.getElementById("resultado").textContent = resta;
@@ -38,8 +38,8 @@ function btnRestar() {
 
 function btnMulti() {
     // Obtener los valores ingresados por el usuario
-    var numeroUno = parseFloat(document.getElementById("primerNum").value);
-    var numeroDos = parseFloat(document.getElementById("segundoNum").value);
+    let numeroUno = parseFloat(document.getElementById("primerNum").value);
+    let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
     // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
@@ -48,7 +48,7 @@ function btnMulti() {
     }
 
     // Calcular la multiplicacion
-    var multi = numeroUno * numeroDos;
+    let multi = numeroUno * numeroDos;
 
     // Mostrar el resultado
     document.getElementById("resultado").textContent = multi;
@@ -56,8 +56,8 @@ function btnMulti() {
 
 function btnDivid() {
     // Obtener los valores ingresados por el usuario
-    var numeroUno = parseFloat(document.getElementById("primerNum").value);
-    var numeroDos = parseFloat(document.getElementById("segundoNum").value);
+    let numeroUno = parseFloat(document.getElementById("primerNum").value);
+    let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
     // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
@@ -66,7 +66,7 @@ function btnDivid() {
     }
 
     // Calcular la division
-    var divid = numeroUno / numeroDos;
+    let divid = numeroUno / numeroDos;
 
     // Mostrar el resultado
     document.getElementById("resultado").textContent = divid;
