@@ -19,11 +19,9 @@ function btnSumar() {
 }
 
 function btnRestar() {
-    // Obtener los valores ingresados por el usuario
     let numeroUno = parseFloat(document.getElementById("primerNum").value);
     let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
-    // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
     alert("Por favor, ingrese números válidos.");
     return;
@@ -37,11 +35,9 @@ function btnRestar() {
 }
 
 function btnMulti() {
-    // Obtener los valores ingresados por el usuario
     let numeroUno = parseFloat(document.getElementById("primerNum").value);
     let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
-    // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
     alert("Por favor, ingrese números válidos.");
     return;
@@ -55,11 +51,9 @@ function btnMulti() {
 }
 
 function btnDivid() {
-    // Obtener los valores ingresados por el usuario
     let numeroUno = parseFloat(document.getElementById("primerNum").value);
     let numeroDos = parseFloat(document.getElementById("segundoNum").value);
 
-    // Verificar si los valores ingresados son números válidos
     if (isNaN(numeroUno) || isNaN(numeroDos)) {
     alert("Por favor, ingrese números válidos.");
     return;
